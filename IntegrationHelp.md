@@ -1,13 +1,18 @@
 ### HACS
-HACS is a community-driven AddOn store for HA. 
-Installation for docker:
+HACS is a community-driven AddOn store for HA. It streamlines installing addons from github.
+1. Installation for docker:
 ```
 docker exec -it homeassistant bash
 wget -O - https://get.hacs.xyz | bash -
 exit
 docker restart homeassistant
 ```
-[Source](https://hacs.xyz/docs/setup/download/)
+2. Configure:
+In HA > Settings > Devices > Add Integration > search for HACS
+follow instructions (accepting stuff, linking github)
+HACS should now show up in HA's sidebar.
+
+[Source](https://hacs.xyz/)
 
 ### Zigbee
 
@@ -19,6 +24,7 @@ This will reset the initiation.
 
 ### Meross
 [https://github.com/albertogeniola/meross-homeassistant](https://github.com/albertogeniola/meross-homeassistant)
+Findable in HACS
 
 
 ### Sonarr

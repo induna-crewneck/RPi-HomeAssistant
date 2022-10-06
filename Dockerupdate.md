@@ -20,7 +20,7 @@ docker rm [CONTAINER ID]
 ```
 ### Remove old images
 when running 'docker images' you can see the IDs of the images you don't need anymore. 
-You can remove them with 'docker image remove IMAGE-ID'
+You can remove them with 'docker image remove IMAGE-ID' (append -f to force)
 
 ## 3. Get new version and install
 pull image and install just as in initial installtion (see Installation.md)

@@ -3,7 +3,8 @@
 Updating the HA container, can be adapted and used for different containers.
 
 ## 0. Backup
-Do yourself a favor
+Do yourself a favor.
+I recommend both backing up the raspberryPi itself and inside HomeAssistant > Settings > System > Backup creating a backup and downloading it to another device. The HA backup will be a .tar file which you will extract and copy to your HA-config path specified in the installation code.
 
 ## 1. Get Info
 The used image is ghcr.io/home-assistant/home-assistant:stable
